@@ -50,7 +50,7 @@ def get_page_urls():
 
 def download_Pic(title, image_list):
     # 新建文件夹
-    os.mkdir(title)
+    os.mkdir(title) #
     j = 1
     # 下载图片
     for item in image_list:
